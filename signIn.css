@@ -1,0 +1,8 @@
+body{
+    background: linear-gradient(to left,#111127, #192054 );
+    height: 100vh;
+}
+
+h1{
+    font-family: 'Kanit', sans-serif;
+}

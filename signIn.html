@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in Epicode</title>
+    <link rel="stylesheet" href="signIn.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container col-5 h-100 d-flex flex-column">
+      <h1 class="text-light font-weight-bold text-center">Sign In Epicode</h1>
+
+      <form class="d-flex flex-column align-items-center border-light p-5">
+        <div class="container-fluid h-50 v col-12">
+          <div class="col-12 d-flex justify-content-center">
+            <input
+              id="firstName"
+              type="text"
+              class="form-control w-50 mb-3"
+              placeholder="First name"
+            />
+          </div>
+          <div class="col-12 d-flex justify-content-center mb-3">
+            <input
+              id="lastName"
+              type="text"
+              class="form-control w-50"
+              placeholder="Last name"
+            />
+          </div>
+          <div class="col-12 d-flex justify-content-center mb-3">
+            <input
+              id="email"
+              type="email"
+              class="form-control w-50"
+              placeholder="Your Email"
+            />
+          </div>
+          <div class="col-6 m-auto">
+            <label for="customRange3" class="form-label text-light h6 py-2"
+              >When were you born?</label
+            >
+            <div id="calendarAge" class="row">
+              <div class="col-12 mx-auto">
+                <div class="h4 text-light d-flex justify-content-center">
+                  dicembre
+                  <!-- mmonth -->
+                </div>
+                <div class="d-flex flex-row flex flex-wrap">
+                  <div class="col-1 text-light justify-content-center">1</div>
+                  <div class="col-1 text-light justify-content-center">1</div>
+                  <div class="col-1 text-light justify-content-center">1</div>
+                  <div class="col-1 text-light justify-content-center">1</div>
+                  <div class="col-1 text-light justify-content-center">1</div>
+                  <div class="col-1 text-light justify-content-center">1</div>
+                  <div class="col-1 text-light justify-content-center">1</div>
+                  <div class="col-1 text-light justify-content-center">1</div>
+                  <div class="col-1 text-light justify-content-center">1</div>
+                  <div class="col-1 text-light justify-content-center">1</div>
+                  <div class="col-1 text-light justify-content-center">1</div>
+                  <div class="col-1 text-light justify-content-center">1</div>
+                  <div class="col-1 text-light justify-content-center">1</div>
+                  <div class="col-1 text-light justify-content-center">1</div>
+                  <div class="col-1 text-light justify-content-center">1</div>
+                  <div class="col-1 text-light justify-content-center">1</div>
+                  <div class="col-1 text-light justify-content-center">1</div>
+                  <div class="col-1 text-light justify-content-center">1</div>
+                  <div class="col-1 text-light justify-content-center">1</div>
+                  <div class="col-1 text-light justify-content-center">1</div>
+                  <div class="col-1 text-light justify-content-center">1</div>
+                  <div class="col-1 text-light justify-content-center">1</div>
+                  <div class="col-1 text-light justify-content-center">1</div>
+                  <div class="col-1 text-light justify-content-center">1</div>
+                  <div class="col-1 text-light justify-content-center">1</div>
+                  <div class="col-1 text-light justify-content-center">1</div>
+                  <div class="col-1 text-light justify-content-center">1</div>
+                  <div class="col-1 text-light justify-content-center">1</div>
+                  <div class="col-1 text-light justify-content-center">1</div>
+                  <div class="col-1 text-light justify-content-center">1</div>
+                  <div class="col-1 text-light justify-content-center">1</div>
+                </div>
+              </div>
+              <button
+                id="btnSub"
+                class="btn col-6 mt-3 mx-auto bg-transparent border-white text-light"
+              >
+                Submit
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script src="signIn.js"></script>
+  </body>
+</html>
