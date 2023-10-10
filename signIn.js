@@ -1,16 +1,20 @@
 const calendarAge = document.getElementById("calendarAge");
 const subButton = document.getElementById("btnSub");
 const form = document.getElementsByTagName("form");
+const firstName = document.getElementById("firstName").textContent;
+const lastName = document.getElementById("lastName");
+const emailUs = document.getElementById("email");
+SubmitOK = true;
+
 const userInfo = [];
 
 const saveItem = function () {
-  const firstName = document.getElementById("firstName").value;
-  const lastName = document.getElementById("lastName").value;
-  const emailUs = document.getElementById("email").value;
   console.log(firstName);
-
-  return firstName, lastName, emailUs;
+  console.log(lastName);
+  console.log(emailUs);
+  localStorage.setItem("name", firstName);
 };
+
 class Users {
   constructor(firstName, lastName, emailUs) {
     this.name = firstName;
@@ -18,4 +22,5 @@ class Users {
     this.email = emailUs;
   }
 }
+
 subButton.addEventListener("submit", saveItem());

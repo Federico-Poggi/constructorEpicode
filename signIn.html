@@ -22,10 +22,14 @@
     <div class="container col-5 h-100 d-flex flex-column">
       <h1 class="text-light font-weight-bold text-center">Sign In Epicode</h1>
 
-      <form class="d-flex flex-column align-items-center border-light p-5">
+      <form
+        class="d-flex flex-column align-items-center border-light p-5"
+        name="sign"
+      >
         <div class="container-fluid h-50 v col-12">
           <div class="col-12 d-flex justify-content-center">
             <input
+              name="userId"
               id="firstName"
               type="text"
               class="form-control w-50 mb-3"
@@ -34,6 +38,7 @@
           </div>
           <div class="col-12 d-flex justify-content-center mb-3">
             <input
+              name="userLast"
               id="lastName"
               type="text"
               class="form-control w-50"
@@ -42,6 +47,7 @@
           </div>
           <div class="col-12 d-flex justify-content-center mb-3">
             <input
+              name="userMail"
               id="email"
               type="email"
               class="form-control w-50"
